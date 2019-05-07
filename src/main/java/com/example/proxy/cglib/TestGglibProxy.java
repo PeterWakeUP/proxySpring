@@ -9,6 +9,7 @@ public class TestGglibProxy {
         try {
             YunZhongYu obj = (YunZhongYu)new GPMeipo().getInstance(YunZhongYu.class);
             obj.findLove();
+            System.out.println("+++++++++++++++++++++++++++++++++++++++");
             obj.say();
         } catch (Exception e) {
             e.printStackTrace();

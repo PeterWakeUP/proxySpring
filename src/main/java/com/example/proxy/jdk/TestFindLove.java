@@ -11,6 +11,7 @@ public class TestFindLove {
 			Person obj1 = (Person)new Meipo().getInstance(new XiaoXingxing());
 			System.out.println(obj1.getClass());
 			obj1.findLove();
+			System.out.println("+++++++++++++++++++++++++++++++++++++++");
 			obj1.say();
 
 			/*Person obj = (Person)new GPMeipo().getInstance(new XiaoXingxing().getClass());
