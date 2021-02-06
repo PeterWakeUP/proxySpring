@@ -9,6 +9,13 @@ public class Meipo implements InvocationHandler {
 	
 	private Person target;
 
+	public Meipo() {
+	}
+
+	public Meipo(Person target) {
+		this.target = target;
+	}
+
 	public Object getInstance(Person target) throws Exception{
 		this.target = target;
 		Class clazz = target.getClass();
