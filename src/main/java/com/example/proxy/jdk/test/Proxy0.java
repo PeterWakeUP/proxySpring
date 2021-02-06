@@ -6,6 +6,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.lang.reflect.UndeclaredThrowableException;
 
+
+/**
+ * jdk动态代理生成的class
+ */
 public final class Proxy0 extends Proxy implements Person {
     private static Method m1;
 

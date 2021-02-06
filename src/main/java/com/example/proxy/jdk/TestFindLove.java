@@ -20,7 +20,10 @@ public class TestFindLove {
 			obj.findLove();*/
 
 
-			/*-------------jdk代理模式源码解析，生成的代理类代码见 F:\_project\dai li ---------------*/
+			/**
+			 * jdk代理模式源码解析，生成的代理类代码见 F:\_project\dai li
+			 * 设计模式：代理模式（实现接口，在接口方法调用Meipo类的invoke方法从而调用被代理类的方法）
+			 */
 			System.out.println("\n\n-----------------------------------------");
 			Person xiaoxingxing = new XiaoXingxing();
 			Meipo meipo = new Meipo(xiaoxingxing);
@@ -28,7 +31,7 @@ public class TestFindLove {
 			proxy0.findLove();
 			System.out.println("+++++++++++++++++++++++++++++++++++++++");
 			proxy0.say();
-			/*----------------------------------------------------------------------------*/
+			/*--------------------------------------------------------------------------------------*/
 
 
 		} catch (Exception e) {
